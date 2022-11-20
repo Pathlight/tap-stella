@@ -11,7 +11,7 @@ setup(
     py_modules=["tap_stella"],
     install_requires=[
         "singer-python>=5.7.3",
-        "PyJWT==1.7.1",
+        "PyJWT==2.4.0",
         "requests",
     ],
     entry_points="""
